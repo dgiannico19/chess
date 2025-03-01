@@ -1,0 +1,38 @@
+export const INITIAL_BOARD_SETUP = {
+  A1: { piece: "rook", color: "white" },
+  B1: { piece: "knight", color: "white" },
+  C1: { piece: "bishop", color: "white" },
+  D1: { piece: "queen", color: "white" },
+  E1: { piece: "king", color: "white" },
+  F1: { piece: "bishop", color: "white" },
+  G1: { piece: "knight", color: "white" },
+  H1: { piece: "rook", color: "white" },
+  A2: { piece: "pawn", color: "white" },
+  B2: { piece: "pawn", color: "white" },
+  C2: { piece: "pawn", color: "white" },
+  D2: { piece: "pawn", color: "white" },
+  E2: { piece: "pawn", color: "white" },
+  F2: { piece: "pawn", color: "white" },
+  G2: { piece: "pawn", color: "white" },
+  H2: { piece: "pawn", color: "white" },
+
+  A8: { piece: "rook", color: "black" },
+  B8: { piece: "knight", color: "black" },
+  C8: { piece: "bishop", color: "black" },
+  D8: { piece: "queen", color: "black" },
+  E8: { piece: "king", color: "black" },
+  F8: { piece: "bishop", color: "black" },
+  G8: { piece: "knight", color: "black" },
+  H8: { piece: "rook", color: "black" },
+  A7: { piece: "pawn", color: "black" },
+  B7: { piece: "pawn", color: "black" },
+  C7: { piece: "pawn", color: "black" },
+  D7: { piece: "pawn", color: "black" },
+  E7: { piece: "pawn", color: "black" },
+  F7: { piece: "pawn", color: "black" },
+  G7: { piece: "pawn", color: "black" },
+  H7: { piece: "pawn", color: "black" },
+};
+
+export const ROWS = ["8", "7", "6", "5", "4", "3", "2", "1"];
+export const COLS = ["A", "B", "C", "D", "E", "F", "G", "H"];
